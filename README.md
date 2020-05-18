@@ -4,8 +4,8 @@ Design an object-oriented system and gain implementation experience in C++
 while using classes, standard data structures and unique
 C++ properties such as the “Rule of 5”.
 
-In this assignment you will write a C++ program that simulates a restaurant management
-system. The program will open the restaurant, assign customers to tables, make orders,
+A C++ program that simulates a restaurant management system. 
+The program will open the restaurant, assign customers to tables, make orders,
 provide bills to the tables, and other requests as described below.
 The program will get a config file as an input, which includes all required information about the
 restaurant opening - number of tables, number of available seats in each table, and details
@@ -18,3 +18,9 @@ config file). The restaurant can’t connect tables together, nor accommodates m
 than the number of seats available in a table. In this restaurant, it’s impossible to add new
 customers to an open table, but it’s possible to move customers from one table to another.
 A bill of a table is the total price of all dishes ordered for that table. 
+
+Classes: Restaurant. Table. Customer. BaseAction.
+
+Ordering strategies: Vegetarian Customer. Cheap Customer. Spicy Customer. Alcoholic Customer.
+
+Actions: Open Table. Order. Move customer. Close. Close all. Print menu. Print table status. Print actions log. Backup restaurant. Restore restaurant.
